@@ -56,21 +56,19 @@ else:
     cthulhu_room()
 
 def dead(why):
-    print("why, Good job!")
+    print(why, "Good job!")
     exit(0)
 
 def start():
     print("You are in a dark room.")
     print("There is a door to your right and left.")
-
-next = input(">")
-
-if next == "left":
-    bear_room()
-elif next == "right":
-    cthulhu_room()
-else:
-    dead("You stumble around the room until you starve.")
+    next = input(">")
+    if next == "left":
+        bear_room()
+    elif next == "right":
+        cthulhu_room()
+    else:
+        dead("You stumble around the room until you starve.")
 
 
 start()
