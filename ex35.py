@@ -10,6 +10,7 @@ def gold_room():
     next = input(">")
     if "()" in next or "l" in next:
         how_much = int(next)
+        print(how_much)
     else:
         dead("Man, learn to type a number.")
     if how_much < 50:
@@ -66,3 +67,5 @@ def start():
         dead("You stumble around the room until you starve.")
 
 start()
+
+
