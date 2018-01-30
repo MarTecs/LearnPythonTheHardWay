@@ -10,6 +10,8 @@ script, input_file = argv
 def print_all(f):
     print(f.read())
 
+
+## 重新回到文件开头
 def rewind(f):
     f.seek(0)
 
