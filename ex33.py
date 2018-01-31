@@ -3,7 +3,6 @@
 # computer: notebook
 # description: while循环
 
-
 '''
 i = 0
 numbers = []
@@ -24,7 +23,11 @@ for num in numbers:
 
 i = 0
 numbers = []
-def print_other(j):
+
+
+
+def prin(j):
+    global i ##声明全局变量i，如果没有这条语句，将会认为下面的i是一个局部变量
     while i < j:
         print("At the top i is %d" % i)
         numbers.append(i)
@@ -33,4 +36,4 @@ def print_other(j):
         print("Numbers now：", numbers)
         print("At the bottom i is %d" % i)
 
-print_other(4)
+prin(10)
