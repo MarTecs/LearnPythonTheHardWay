@@ -2,7 +2,7 @@
 # Author: sivan
 # computer: notebook
 # description: 分支和函数
-
+## 分支和函数
 from sys import exit
 
 def gold_room():
