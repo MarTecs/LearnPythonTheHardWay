@@ -51,3 +51,22 @@ happy_bday = Song(["Happy birthday to you.", "I don't want to get sued", "So I'l
 bulls_on_parade = Song(["They rally around the family", 'With pockets full of shells'])
 happy_bday.sing_me_a_song()
 bulls_on_parade.sing_me_a_song()
+
+
+
+a = {
+    1: '1',
+    2: '2'
+}
+
+## 使用for循环遍历字典
+for v,k in a.items():
+    print("{v}：{k}".format(v=v, k=k))
+
+## 使用for循环获取字典中的键
+for k in a.keys():
+    print(k)
+
+## 使用for循环获取字典中的值
+for v in a.values():
+    print(v)
