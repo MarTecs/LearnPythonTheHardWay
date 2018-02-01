@@ -18,3 +18,21 @@ a.test() ##注意：这里虽然需要1个参数但是我们使用a调用test方
 
 
 ## 字典中的内容是无序的
+
+### 使用for循环遍历字典
+```Python
+for v,k in a.items():
+    print("{v}：{k}".format(v=v, k=k))
+```
+
+### 使用for循环获取字典中的键
+```Python
+for k in a.keys():
+    print(k)
+```
+
+### 使用for循环获取字典中的值
+```Python
+for v in a.values():
+    print(v)
+```
